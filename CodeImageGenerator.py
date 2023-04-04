@@ -32,7 +32,7 @@ with col3:
     border_color = st.color_picker("Gradient color:", value='#00AFEF')
 
 # Font selection dropdown
-fonts = ["Arial","Custom"]# "Times New Roman", "Terminal", "Roboto", "custom"]
+fonts = ["Roboto","Custom"]# "Times New Roman", "Terminal", "Roboto", "custom"]
 
 font_choice = st.selectbox("Font:", options=fonts)
 
@@ -41,7 +41,7 @@ if font_choice == "Custom":
     if custom_font_file:
         font_path = custom_font_file
     else:
-        font_path = "arial.ttf"
+        font_path = "Roboto.ttf"
 else:
     font_path = f"{font_choice}.ttf"
 
