@@ -12,12 +12,10 @@ def convert_code_to_image(code, font_path="arial.ttf", font_size=14, background_
     gradient_size = int(gradient_size * dpi_scale)
     corner_radius = int(corner_radius * dpi_scale)
 
-    font = ImageFont.truetype(font_path, font_size)
-
     try:
         font = ImageFont.truetype(font_path, font_size)
     except OSError:
-        raise ValueError(f"Font file not found or not supported: {font_path}")
+        font = ImageFont.load_default()
 
     lines = code.split("\n")
     width = max([font.getsize(line)[0] for line in lines])
