@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[42]:
-
-
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 
@@ -17,8 +11,6 @@ def convert_code_to_image(code, font_path="arial.ttf", font_size=14, background_
     border_width = int(border_width * dpi_scale)
     gradient_size = int(gradient_size * dpi_scale)
     corner_radius = int(corner_radius * dpi_scale)
-    
-    # font_path = "D:\Roboto\Roboto-Black.ttf"
 
     font = ImageFont.truetype(font_path, font_size)
 
@@ -79,19 +71,3 @@ def convert_code_to_image(code, font_path="arial.ttf", font_size=14, background_
 
     # Return final image
     return image.convert("RGB")
-
-
-# convert_code_to_image('''from PIL import Image, ImageDraw, ImageFont
-# 
-# def convert_code_to_image(code, font_size=14, background_color=(255, 255, 255), text_color=(0, 0, 0), line_height=20):
-#     font = ImageFont.truetype("arial.ttf", font_size)
-#     lines = code.split("\n")
-#     width = max([font.getsize(line)[0] for line in lines])
-#     height = len(lines) * line_height
-#     image = Image.new("RGB", (width, height), background_color)
-#     draw = ImageDraw.Draw(image)
-#     y = 0
-#     for line in lines:
-#         draw.text((0, y), line, text_color, font=font)
-#         y += line_height
-#     return image''')
