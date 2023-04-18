@@ -1,8 +1,9 @@
 Code to Image Converter
 
-![GitHub](https://img.shields.io/github/license/Lakshay-13/Code-Image-Generator)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Lakshay-13/Code-Image-Generator?include_prereleases)
-![GitHub issues](https://img.shields.io/github/issues/Lakshay-13/Code-Image-Generator)
+[![GitHub](https://img.shields.io/github/license/Lakshay-13/Code-Image-Generator)](https://github.com/Lakshay-13/Code-Image-Generator/blob/main/LICENSE)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Lakshay-13/Code-Image-Generator?include_prereleases)](https://github.com/Lakshay-13/Code-Image-Generator/releases)
+[![GitHub issues](https://img.shields.io/github/issues/Lakshay-13/Code-Image-Generator)](https://github.com/Lakshay-13/Code-Image-Generator/issues)
+
 
 Code to Image Converter is an inventive and visually-appealing Streamlit application that converts code snippets into customizable images.
 
