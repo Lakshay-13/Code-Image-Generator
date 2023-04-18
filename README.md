@@ -6,7 +6,7 @@ Code to Image Converter
 
 Code to Image Converter is an inventive and visually-appealing Streamlit application that converts code snippets into customizable images.
 
-![Application Screenshot](<screenshot_url>)
+![Application Screenshot](https://github.com/Lakshay-13/Code-Image-Generator/blob/main/demo.png)
 
 ## Features
 
